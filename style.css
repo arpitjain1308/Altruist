@@ -1,5 +1,4 @@
 * {
-    background-color: black;
     box-sizing: border-box;
 }
 
@@ -49,12 +48,14 @@ a {
 
 .post a:hover {
     color: black;
-    background-color: greenyellow;
-    box-shadow: 10px;
+    background-color:  rgb(117, 237, 243);
+    box-shadow: 5px 5px 10px black;
+    font-size: 18px;
 }
 
 .child1 a:hover {
-    color: greenyellow;
+    color:  rgb(117, 237, 243);
+    font-size: 20px;
 }
 
 form {
@@ -64,7 +65,8 @@ form {
     align-items: center;
 }
 input, textarea {
-    background-color: aquamarine;
+    background-color: rgba(79, 236, 199, 0.1);
+    color: rgb(117, 237, 243)
 }
 #proimg {
     background-color: black;
@@ -73,5 +75,12 @@ input, textarea {
 h1 {
     color: white;
     text-align: center;
-    font-size: 53px;
+    font-size: 40px;
+}
+
+.backvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }

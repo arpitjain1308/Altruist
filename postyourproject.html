@@ -8,9 +8,12 @@
 </head>
 <body>
     <div class="parent">
+        <video autoplay loop muted plays-inline class="backvideo">
+            <source src="./tb3.mp4" type="video/mp4">
+        </video>
         <div class="child1">
             <nav>
-                <a href="">Home</a>
+                <a href="index.html">Home</a>
                 <a href="">Community</a>
                 <a href="">My Projects</a>
                 <a href="">Saved Projects</a>
@@ -19,27 +22,29 @@
         </div>
         <div class="child2">
             <h1>Post Your Project</h1>
-    
-    <form>
+     
+    <form action="#" method="POST">
         <label for="fname">First Name:</label>
         <br>
-        <input type="text" name="fname" id="fname">
+        <input type="text" name="fname" id="fname" placeholder="Enter your firstname">
         <br>
         <label for="lname">Last Name:</label>
         <br>
-        <input type="text" name="lname" id="lname">
+        <input type="text" name="lname" id="lname" placeholder="Enter your lastname">
         <br>
         <label for="proname">Name of the Project:</label>
         <br>
-        <input type="text" name="proname" id="proname">
+        <input type="text" name="proname" id="proname" placeholder="Enter your project name">
         <br>
         <label for="prodesc">Project Description:</label>
         <br>
-        <textarea name="prodesc" id="prodesc" cols="30" rows="10"></textarea>
+        <textarea name="prodesc" id="prodesc" cols="30" rows="10" placeholder="Describe your project"></textarea>
         <br>
         <label for="proimg">Images of the project:</label>
         <br>
-        <input type="file" name="proimg" id="proimg">
+        <input type="file" name="proimg" id="proimg" placeholder="Add project images">
+        <br>
+        <button type="submit">Submit</button>
     </form>
         </div>
     </div>

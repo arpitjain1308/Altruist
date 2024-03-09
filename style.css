@@ -84,3 +84,17 @@ h1 {
     bottom: 0;
     z-index: -1;
 }
+
+.workinprogress {
+    color: aqua;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(149, 178, 186);
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 500px;
+    height: 100px;
+}
